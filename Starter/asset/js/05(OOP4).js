@@ -28,7 +28,6 @@ Customer.prototype = Object.create(Person.prototype);
 //5. Change the constructor of Customer to be Customer 
 Customer.prototype.constructor = Customer;
 
-console.log(Customer);
 
 
 // Create Customer Object pass ["Jorah", "Mormont", "PRO"]
@@ -36,7 +35,6 @@ const Customer_1 = new Customer()
 Customer_1.firstName = "Jorah";
 Customer_1.lastName = "Mormont";
 Customer_1.membership = "PRO" ;
- 
 
 //6. Display The Full Name [remove the string when you have the object]
 
