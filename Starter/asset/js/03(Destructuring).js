@@ -26,10 +26,10 @@ function arrayDestructuring() {
     let str = "Margaery Tyrell"
 
     //1. Destructor this string array to firstName and lastName by using split() method of string object
-    let [firstNames, lastname] = str.split(' ');
+    let [firstNames, lastname] = "Margaery Tyrell".split(' ');
     //2. Display it [Replace it with ${firstName} ${lastName} once you have the variables]
     // des_string.innerHTML = `Hello , I am firstName lastName `
-    des_arr.innerHTML = `"Hello , I am   ${firstNames}` +  `${lastname}`
+    des_string.innerHTML = `Hello , I am   ${firstNames}` +  `${lastname}`
 
 
 
@@ -53,9 +53,7 @@ function objectDestructuring() {
     //1. Destructor this object to fName and sName [different naming]
     let {fName, lName} = person;
     //2. Display it [Replace it with ${Name} ${lName} once you have the variables]
-    des_obj2.innerHTML = `Hi , I am ${fName
-
-    }`+ `${lName}`
+    des_obj2.innerHTML = `Hi , I am ${fName}` + `${lName}`
 
 
 }

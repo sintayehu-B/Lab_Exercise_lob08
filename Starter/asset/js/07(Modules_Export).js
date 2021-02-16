@@ -22,4 +22,4 @@ export {myVar,exp1, exp2, exp3};
 export{exp2 as exp2_Alias}
 
 //4. Export exp3
-// export function exp3()
+// export {exp3}

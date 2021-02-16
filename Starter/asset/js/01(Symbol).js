@@ -31,7 +31,7 @@ function displaySymbolEquality() {
 
     // 3. Compare their equality (===) , store it on result variable
     let result = (id1 === id2) 
-    alert(symbolEquality.innerHTML = result);
+    symbolEquality.innerHTML = result
 
     
 
